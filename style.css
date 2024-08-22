@@ -1,0 +1,128 @@
+.Header img{
+	/*background-color: white;
+	width: 80px;
+	float: left;
+	height: 80px;
+	padding: 80px;
+	text-align: center;
+	border-radius: 150px;*/
+    object-fit: cover;
+	object-position: top;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+}
+figcaption{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 200%;
+    
+}
+.Logo img {
+	/*background-color: blue;
+	height: 20px;
+	width: 20px;
+	padding: 25px;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 150px;
+    float: right;*/
+    object-fit: cover;
+	object-position: top;
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+    float: right;
+    
+}
+.numbers{
+    text-align: center;
+}
+.num{ 
+    /*color: black;
+    padding: -10px;
+    margin: 0px;
+    display: inline-block;
+    margin-top: -100%;
+    font-size: xx-large;
+  background-color: black;
+  margin-left: 15%;
+ margin-right: 5%;*/
+ color: black;
+ padding: 5px;
+ margin: 50px;
+ display: inline-block;
+ margin-top: -50px;
+ font-size: xx-large;
+ margin-left: 12%;
+}
+.Details {
+   text-align: center;
+}
+.data {
+    color: black;
+    padding: 5px;
+    margin: 50px;
+    display: inline-block;
+    margin-top: -50px;
+    font-size: xx-large;
+    margin-left: 5%;
+  
+
+}
+
+body{background-color:white;
+}
+#wrapper {
+	display: block;
+	margin: 5px;
+}
+nav {
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+    background-color: white;
+}
+.Linedata{
+    text-align: center;
+    background-color: white;
+    
+}
+.data1 {
+    color:red;
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+    background-color: whitesmoke;
+    }
+ .data1 img{width: 40px;
+    }  
+button:active {
+        background-color: darkgrey;
+      } 
+button:hover {
+    background-color: white;
+}
+button{
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    border: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 1px;
+   border-style:solid;
+   border-color: black;
+}         
+section{
+    background-color: whitesmoke;
+    
+}
+section img{
+    margin: 30px;
+    height: 410px;
+    width: 410px;
+    align-items: center;
+    
+}
