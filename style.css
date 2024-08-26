@@ -110,7 +110,7 @@ button{
     color: whitesmoke;
     border: 10px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor:pointer;
     border-width: 1px;
    border-style:solid;
    border-color: black;
@@ -120,9 +120,54 @@ section{
     
 }
 section img{
-    margin: 30px;
-    height: 410px;
-    width: 410px;
+    margin: 50px;;
+    height: 900px;
+    width: 900px;
+    display:flex;
+    size-adjust: auto;
+   
+    /*align-items: center;
+    display: flex;
+    flex-direction: column;*/
+}
+section{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.photo1 {background-color: white;
+padding-left: 0px;
+padding-top: 5px;
+padding-bottom: 50px;
+margin:50px 0;
+
+}
+.photo2 {background-color: white;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    margin:50px 0;
+    }
+    .photo3 {background-color: white;
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        margin:50px 0;
+        }    
+
+p {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: x-large;
+    font-style: oblique;
+    display: flex;
     
 }
+/*.contenedor{
+    margin: 10px;
+    height: 810px;
+    width: 810px;
+    align-items: center;
+    flex-direction:column;
+	}
+
